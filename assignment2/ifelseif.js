@@ -8,7 +8,7 @@ else if(day==2){
 }
 else if(day==3){
     console.log("tuesday");
-}
+}   
 else if(day==4){
     console.log("wednesday");
 }

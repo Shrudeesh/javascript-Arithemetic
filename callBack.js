@@ -1,7 +1,11 @@
-function sum(a,b,cd){
+function sum(a,b,cb) {
 let result=a+b
-cd(result)
+cb(result)
 }
+let display=(res)=>{console.log(res);}
 
-let result=(res)=>{console.log(res);}
-sum(10,20,result)
+//setTime//
+sum(10,30,display)
+setTimeout(()=>{
+    console.log("hey This is Shrudeesh");
+},3000)

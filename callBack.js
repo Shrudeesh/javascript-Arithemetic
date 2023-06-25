@@ -9,3 +9,8 @@ sum(10,30,display)
 setTimeout(()=>{
     console.log("hey This is Shrudeesh");
 },3000)
+
+//setIntervel//
+setInterval(()=>{
+    console.log("what is up guys");
+},3000)

@@ -16,4 +16,6 @@ for (const key in dev) {
 //  console.log(key);
 console.log(key,":",dev[key]);
 
-}
+}Object.entries(dev).map((Element)=>{
+    console.log(Element[1]);
+})
